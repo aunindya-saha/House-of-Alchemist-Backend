@@ -1,0 +1,14 @@
+## .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## Sensitive config — never commit
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+
+## Published output
+publish/
